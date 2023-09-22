@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "auth.key",
+    "type": "java.lang.String",
+    "description": "Google Key to call Civic APIs"
+  },
+  {
+    "name": "google.civic.elections.api",
+    "type": "java.lang.String",
+    "description": "A description for 'google.civic.elections.api'"
+  },
+  {
+    "name": "google.civic.voterinfo.api",
+    "type": "java.lang.String",
+    "description": "A description for 'google.civic.voterinfo.api'"
+  },
+  {
+    "name": "google.civic.representatives.api",
+    "type": "java.lang.String",
+    "description": "A description for 'google.civic.representatives.api'"
+  }
+]}
