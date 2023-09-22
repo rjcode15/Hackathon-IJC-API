@@ -39,7 +39,7 @@ public class GoogleCivicService {
 		return callRestApi(url, "", headerParams);
 	}
 
-	public String getVoterInfo(String address, String electionId) {
+	public String getVotingInfo(String address, String electionId) {
 		Map<String, String> headerParams = new HashMap<>();
 		String url = voterInfoAPI+"?address=" + address + "&key=" + authKey + "&electionId=" + electionId;
 		return callRestApi(url, "", headerParams);
@@ -47,7 +47,7 @@ public class GoogleCivicService {
 
 	public String getCandidateInfo(String address) {
 		Map<String, String> headerParams = new HashMap<>();
-		String url = "?address=" + address + "&key=" + authKey;
+		String url = candidatesAPI+"?address=" + address + "&key=" + authKey;
 		return callRestApi(url, "", headerParams);
 	}
 
